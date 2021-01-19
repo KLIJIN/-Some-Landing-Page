@@ -1,0 +1,65 @@
+.header {
+
+    nav {
+        padding:17px 24px;
+    }
+
+    &__logo{
+
+        img{
+            width: 141px;
+            height: 22px;
+        }
+    }
+
+    &__menu{  //mobile menu
+
+        >span { //полоски бургер меню
+            display: block;
+            width: 26px;
+            height: 2px;
+            background: $darkBlue;
+            &:not(:last-child) {
+                margin-bottom: 3px;
+            }
+        }
+
+
+        
+    }
+
+    &__links {
+        a{
+            font-size: $font-small;
+             color: $grayishBlue;
+             transition: all 0.3 ease-in-out;
+             position: relative;
+
+            &:not(:last-child) {
+                margin-right: 32px;
+            }
+
+            &::before {
+                content: "";
+                display: block;
+                position: absolute;
+                height: 5px;
+                left: 0;
+                right: 0;
+                bottom: -30px;
+                background: linear-gradient(to right, $limeGreen, $brightCyan);
+                opacity: 0;
+                transition: all 0.3 ease-in-out;
+              }
+              
+              &:hover{
+                color: $darkBlue;
+                &::before {
+                    opacity: 1;
+                  }
+            }
+        }
+      
+    }
+
+}
