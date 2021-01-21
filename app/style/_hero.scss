@@ -1,8 +1,7 @@
 .hero {
     background-color: $veryLightGray;
-  
+
     .container {
-  
       @include breakpoint-up(large){    
         display: flex;
         align-items: center;
@@ -27,9 +26,7 @@
         order: 2;
         height: 656px;
         background-image: none;
-
       }
-  
   
       &::before { 
         @include breakpoint-up(large){

@@ -9,14 +9,11 @@
     &__intro {
         margin-bottom: 60px ;
       @include breakpoint-up(large){
-       //width: 60%;
         width: 105%;
-       
       }
     }
   
     &__grid {
-
         display: flex;
         justify-content: space-between; 
         flex-wrap: wrap; 
@@ -24,10 +21,8 @@
     }
   
     &__item {
-        // border: 1px solid purple;
         padding: 15px;
       @include breakpoint-up(medium){
-        
         flex: 50%;
       }
       @include breakpoint-up(large){
@@ -48,7 +43,6 @@
       line-height: 1.15;
       color: $darkBlue;
       margin-bottom: 27px;
-  
       @include breakpoint-up(large){
         font-size: 24px;
         margin-bottom: 34px;

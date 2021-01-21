@@ -1,7 +1,7 @@
 html {
     font-size: 100%;
     box-sizing: border-box;
-    }
+}
 
 *, *::after, *::before {
     box-sizing: inherit;   // box-sizing: наследуется от родителя.
@@ -25,7 +25,6 @@ body {
     color: $grayishBlue;
     min-height: 200vh;
     overflow-x: hidden;
-
     @include breakpoint-up(large) {
         font-size: $font-medium;
     }
@@ -48,13 +47,13 @@ h1{
     margin-bottom: 25px;
     @include breakpoint-up(large){
         margin-bottom: 32px;
-      }
+    }
 }
 
 p{
     @include breakpoint-up(large){
         margin-bottom: 40px;
-      }
+    }
 }
 
  h2{
@@ -67,45 +66,42 @@ p{
         font-size: 36px;
         margin-bottom: 36px;
         margin-top: 95px;
-      }
+    }
 }
 
 .container {
     max-width: 1110px;
     margin: 0 auto;
-
     padding-left: 24px;
     padding-right: 24px;
-   // padding-top: 36px;
-   // padding-bottom: 36px;
-
     &--pall { //padding all
-        padding-top: 12px; //  36px
-        padding-bottom: 36px; //  36px
-        padding-right: 24px; //  36px
-        padding-left: 24px; //  36px
+        padding-top: 12px;
+        padding-bottom: 36px;
+        padding-right: 24px;
+        padding-left: 24px;
     }
     &--py {  //top - bottom
-        padding-top: 12px; //  36px
-        padding-bottom: 36px; //  36px
+        padding-top: 12px;
+        padding-bottom: 36px;
     }
     &--px { //left - right
-        padding-right: 24px; //  36px
-        padding-left: 24px; //  36px
+        padding-right: 24px;
+        padding-left: 24px; 
     }
     &--pt {
-        padding-top: 12px; //  36px
+        padding-top: 12px;
     }
     &--pr {
-        padding-right: 24px; //  36px
+        padding-right: 24px;
     }
     &--pb {
-        padding-bottom: 36px; //  36px
+        padding-bottom: 36px;
     }
     &--pl {
-        padding-left: 24px; //  36px
+        padding-left: 24px;
     }
 }
+
 
 //Flexbox
 .flex {
@@ -152,9 +148,9 @@ button, .button {
     }
   }
   
-  .hide-for-desktop {
+.hide-for-desktop {
     @include breakpoint-up(large){
-      display: none;
+        display: none;
     }
-  }
+}
 

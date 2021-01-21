@@ -85,7 +85,6 @@
         }
     }
 
-   
     &__menu{
         z-index: 10;
         display: none;
@@ -97,7 +96,6 @@
         margin-top: 25px;
         padding: 10px 8px;
         border-radius: 5px;
-    
         a {
           display: block;
           padding: 10px 7px;
@@ -105,12 +103,11 @@
           text-align: center;
           border-radius: 4px;
           transition: all .2s ;
-          &:hover{
+        &:hover{
             color: $white;
             background: linear-gradient(to right, $limeGreen, $brightCyan);
          }
         }
       }
-
 }
 
