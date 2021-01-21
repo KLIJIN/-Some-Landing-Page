@@ -1,5 +1,6 @@
 .header {
     position: relative;
+    padding: 0 24px;
     .overlay{
         z-index: 1;
         //opacity: 0;
@@ -107,7 +108,7 @@
           &:hover{
             color: $white;
             background: linear-gradient(to right, $limeGreen, $brightCyan);
-        }
+         }
         }
       }
 
