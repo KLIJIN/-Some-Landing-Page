@@ -2,6 +2,9 @@
 
 реализованно на HTML, SCSS, JS
 
+Ссылка [GitHub Pages](https://klijin.github.io/-Some-Landing-Page).
+   
+
 # Frontend Mentor - Easybank landing page
 
 ![Design preview for the Easybank landing page coding challenge](./design/desktop-preview.jpg)
